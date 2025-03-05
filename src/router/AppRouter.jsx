@@ -9,7 +9,7 @@ const AppRouter = () => {
   return (
     <Router>
       <Routes>
-        <Route path="" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/recipe/:id" element={<RecipePage/>} />
       </Routes>
     </Router>

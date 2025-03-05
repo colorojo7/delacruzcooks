@@ -1,5 +1,4 @@
 import React from "react";
-import recipiesList from "../../assets/content/recipies/recipies.js";
 import RecipeCarousel from "../RecipiesCarrusel.jsx";
 
 const SectionRecipies = () => {

@@ -18,8 +18,8 @@ const LandingPage = () => {
         <Section className="h-auto" id="recipes">
             <SectionRecipies/>
         </Section>
-        <Section className='h-dvh'>
-            <SectionChildfund/>
+        <Section className=''>
+            <SectionChildfund />
         </Section>
         <Section  className="h-svh" id="colabs">
             <SectionColab/>

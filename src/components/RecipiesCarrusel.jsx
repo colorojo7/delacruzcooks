@@ -1,4 +1,4 @@
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import recipiesList from "../assets/content/recipies/recipies.js";
 
 const RecipeCarousel = () => {
@@ -21,7 +21,7 @@ const RecipeCarousel = () => {
           >
             <div className="flex flex-col justify-center pb-10 ">
               <div className="group h-96 w-64 md:w-80 [perspective:1000px]">
-                <div className="relative h-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d]  group-hover:[transform:rotateY(180deg)]">
+                <div className="relative h-full rounded-xl shadow-xl transition-all duration-700 [transform-style:preserve-3d]  group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute inset-0">
                     <img
                       className="h-full w-full rounded-xl object-cover shadow-xl"
@@ -29,16 +29,25 @@ const RecipeCarousel = () => {
                     />
                   </div>
                   <div className="absolute inset-0 h-full w-full rounded-xl bg-black/70 md:px-4 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] ">
-                  <div className="p-4 h-full flex flex-col justify-between">
-                      <h2 className="text-4xl font-bold text-center">{recipe.title}</h2>
-                      <p className="text-sm">{recipe.subtitle}</p>
+                    <div className="p-4 h-full flex flex-col justify-between pb-5 ">
+                      <div className="pt-10 flex flex-col justify-center gap-5 ">
+                        <h2 className="text-4xl font-bold text-center">
+                          {recipe.title}
+                        </h2>
+                        <h3 className="text-sm">{recipe.subtitle}</h3>
+                      </div>
+                      <div className="flex flex-row justify-center gap-5 font-bold bg-brand-6 rounded-2xl">
+                        <div>{recipe.dificulty}</div>
+                        <div>{recipe.time}</div>
+                      </div>
+                      </div>
                       <Link
                         to={`/recipe/${recipe.id}`}
-                        className="bg-brand-1 hover:bg-brand-2 text-white px-6 py-3 rounded-lg text-lg font-semibold"
+                        className="bg-brand-1 hover:bg-brand-2 text-white px-6 py-3 rounded-lg text-lg font-semibold "
                       >
                         Let's make it!!
                       </Link>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
