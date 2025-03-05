@@ -24,7 +24,7 @@ const RecipePage = () => {
         <h1 className="font-extrabold text-4xl md:text-7xl">{recipe.title}</h1>
       </div>
 
-      <div className="bg-slate-40 p-5 pt-1 md:p-10 min-h-full flex-grow">
+      <div className="bg-slate-40  pt-1 md:p-10 min-h-full flex-grow">
         <div className="flex flex-wrap flex-col md:flex-row gap-5 md:gap-10 justify-around">
           <div className="p-2  flex justify-center rounded-3xl md:basis-5/12">
             <img
@@ -34,7 +34,7 @@ const RecipePage = () => {
           </div>
 
           <div className="p-2  flex justify-center rounded-3xl md:basis-5/12">
-            <div className="p-5 pt-2 min-h-full min-w-full  md:max-w-60  object-cover rounded-2xl bg-slate-200 border-8 border-brand-3">
+            <div className="p-5 pt-2 min-h-full min-w-full  md:max-w-60  object-cover rounded-2xl bg-slate-100 border-8 border-brand-3">
               <h2 className="mb-3 text-center font-bold text-xl md:text-2xl italic">
                 Ingredients
               </h2>
