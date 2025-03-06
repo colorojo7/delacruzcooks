@@ -52,13 +52,15 @@ const SectionHero = () => {
       <div className="relative h-full flex items-end md:items-center z-10">
         <div className="w-full md:w-1/2 px-8 lg:px-16 text-white">
           <h1 className="text-2xl lg:text-5xl font-bold mb-4">
-            ¡Travel to Latinamerica from your own kitchen!
+          Join Me on a Flavour-Packed Trip to Latin America—Right from Your Kitchen!
           </h1>
           <p className="text-lg lg:text-xl mb-6">
-            Find recipies, events and products that will let you discover new flavours from the latin culture.
+          Discover bold flavors, easy gluten-free recipes, and events that bring Latin culture straight to you
           </p>
           <button className="bg-brand-1 hover:bg-brand-2 text-white px-6 py-3 rounded-lg text-lg font-semibold">
-            Let's work together
+          <a href="#recipes">
+            Let's get cooking
+            </a>
           </button>
         </div>
       </div>

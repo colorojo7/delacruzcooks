@@ -55,14 +55,8 @@ const SectionChildfund = () => {
           </div>
           <div className="max-w-96 flex flex-col justify-between font-semibold p-3 text-center bg-brand-1-light rounded-3xl">
             <p className="mb-3">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit, vestibulum
-              justo himenaeos vulputate posuere aliquet, mus quis mollis laoreet
-              parturient molestie cum, commodo fusce in fermentum sem. Massa
-              curabitur ac platea porta egestas augue, et tellus dignissim urna
-              cras, molestie vehicula est orci enim. Fames hendrerit natoque
-              gravida commodo pretium ad montes duis risus, purus feugiat
-              imperdiet non sodales nostra nunc facilisi, posuere netus leo
-              cursus dignissim venenatis suspendisse cubilia.
+            I am so pleased and proud  to be a ChildFund ambassador because, for me, it is important that we live in a world where children have access to nutritious food, education, and healthy childhoods. I’m humbled and proud of being collaborating with the ChildFund team and embarking on this new project.
+            Being one of nine children in a big family in Argentina my mother showed me the positive impact cooking and nutrition could have on a child’s life. You can help me help them.
             </p>
 
             <button className="bg-brand-1 hover:bg-brand-2 text-white px-6 py-3 rounded-lg text-lg font-semibold">
@@ -71,7 +65,7 @@ const SectionChildfund = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                I will help you to help!
+                Let's help together
               </a>
             </button>
           </div>
