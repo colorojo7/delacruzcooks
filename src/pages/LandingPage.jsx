@@ -11,7 +11,9 @@ const LandingPage = () => {
   return (
     <div>
         <NavBar/>
-
+        <div className='flex justify-center'>
+        <img src="/images/juan/JuanLogoWhite.png" className="md:hidden h-32 "/>
+        </div>
         <Section className="h-dvh">
             <SectionHero/>
         </Section>

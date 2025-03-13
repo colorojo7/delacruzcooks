@@ -37,7 +37,7 @@ const SectionHero = () => {
         };
       }, []);
   return (
-    <div className="h-full pt-16 md:pt-28 md:pb-8">
+    <div className="h-full pt-5 md:pt-28 md:pb-8">
 
     
     <div
