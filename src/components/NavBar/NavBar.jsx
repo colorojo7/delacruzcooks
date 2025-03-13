@@ -41,9 +41,12 @@ const NavBar = () => {
       }`}
     >
       <div className="rounded-3xl  bg-brand-1 h-full bg-opacity-95 flex justify-between items-center">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex justify-between items-center max-h-full">
           <div className="flex space-x-4">
           <NavLinks/>
+          </div>
+          <div className="">
+            <img src="/images/juan/JuanLogoWhite.png" className="h-20 border-8 border-brand-1-light"/>
           </div>
           <div className="flex space-x-4">
             

@@ -52,7 +52,7 @@ const SectionHero = () => {
       <div className="relative h-full flex items-end md:items-center z-10">
         <div className="w-full md:w-1/2 px-8 lg:px-16 text-white">
           <h1 className="text-2xl lg:text-5xl font-bold mb-4">
-          Join Me on a Flavour-Packed Trip to Latin America—Right from Your Kitchen!
+          Join me on a flavour-packed trip to Latin America right from your kitchen!
           </h1>
           <p className="text-lg lg:text-xl mb-6">
           Discover bold flavors, easy gluten-free recipes, and events that bring Latin culture straight to you
