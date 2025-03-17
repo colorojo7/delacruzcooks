@@ -2,14 +2,14 @@ import React from "react";
 import colabList from "../../assets/content/colabs/colabsList";
 
 const SectionColab = () => {
-  console.log(colabList);
+  
 
   return (
     <div className="h-full">
-      <div className="flex flex-col md:flex-row md:gap-3 justify-evenly md:h-full">
-        <div className="h-full w-full md:p-6">
+      <div className="flex flex-col md:flex-row md:gap-3 justify-evenly h-full">
+        <div className="md:h-full w-full md:p-6">
           <div className="flex flex-col justify-between bg-blue-100 p-6 h-full w-full rounded-3xl">
-            <h2 className="  px-4 text-6xl font-extrabold text-brand-2 md:text-center">
+            <h2 className="px-4 text-6xl font-extrabold text-brand-2 md:text-center">
               I'm proud to colab with...
             </h2>
             <div className="hidden md:block border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
@@ -17,9 +17,9 @@ const SectionColab = () => {
             </div>
           </div>
         </div>
-        <div className="h-full w-full p-6">
+        <div className="max-h-full w-full p-6 overflow-y-auto">
           <div className=" flex flex-col justify-center h-full w-full">
-            <div className="flex flex-row flex-wrap  min-h-96 overflow-y-auto max-h-[600px]">
+            <div className="flex flex-row flex-wrap  min-h-96 ">
               {colabList.map((colab) => (
                 <div
                   key={colab.id}
