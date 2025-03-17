@@ -38,7 +38,7 @@ const RecipeCarousel = () => {
                         <h4 className="text-sm">{recipe.description}</h4>
                       </div>
                       <div className="flex flex-row justify-center gap-5 font-bold bg-brand-6 rounded-2xl">
-                        <div>{recipe.dificulty}</div>
+                        <div>{recipe.difficulty}</div>
                         <div>{recipe.time}</div>
                       </div>
                       </div>

@@ -26,12 +26,12 @@ const LandingPage = () => {
         <Section  className="h-svh" id="colabs">
             <SectionColab/>
         </Section>
-        <Section className='bg-brand-4'>
+        {/* <Section className='bg-brand-4'>
             SctionProduct
         </Section>
         <Section className='bg-brand-6'>
             SctionMedia
-        </Section>
+        </Section> */}
         <Section id="contact" className="h-auto">
             <SectionContact/>
         </Section>
