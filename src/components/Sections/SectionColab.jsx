@@ -10,7 +10,7 @@ const SectionColab = () => {
         <div className="md:h-full w-full md:p-6">
           <div className="flex flex-col justify-between bg-blue-100 p-6 h-full w-full rounded-3xl">
             <h2 className="px-4 text-6xl font-extrabold text-brand-2 md:text-center">
-              I'm proud to colab with...
+            These are some of my latest partnerships
             </h2>
             <div className="hidden md:block border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
               <a href="#contact">Let's work together</a>
@@ -27,7 +27,7 @@ const SectionColab = () => {
                 >
                   <div className="group relative h-full rounded-xl shadow-xl overflow-hidden">
                     {/* Capa principal con la imagen */}
-                    <div className="absolute inset-0 border-2 border-brand-1-light rounded-xl p-2 h-full flex items-center justify-center transition-all duration-500 group-hover:translate-y-full">
+                    <div className="absolute inset-0 border-2 border-brand-1-light rounded-xl p-2 h-full flex items-center justify-center transition-all duration-500 ">
                       <img
                         src={colab.logo}
                         className="max-h-full max-w-full"
@@ -36,7 +36,7 @@ const SectionColab = () => {
                     </div>
 
                     {/* Capa oculta que baja al hacer hover */}
-                    <div className="absolute inset-0 h-36 w-full bg-brand-1-light px-4 text-center text-slate-200 flex flex-col items-center gap-2 py-2 transition-all duration-500 translate-y-[-100%] group-hover:translate-y-0">
+                    {/* <div className="absolute inset-0 h-36 w-full bg-brand-1-light px-4 text-center text-slate-200 flex flex-col items-center gap-2 py-2 transition-all duration-500 translate-y-[-100%] group-hover:translate-y-0">
                       <img src={colab.logo} className="max-w-20 max-h-7" />
                       <a
                         href={colab.link}
@@ -50,7 +50,7 @@ const SectionColab = () => {
                           See my job
                         </a>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}

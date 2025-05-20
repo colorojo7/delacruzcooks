@@ -68,7 +68,7 @@ const recipiesList = [
 
   //empanadas
   {
-    id: "empanadas_00",
+    id: "empanadas_01",
     title: "My Beef Empanadas",
     subtitle: "Indulge in these authentically Argentinian beef empanadas",
     description:
@@ -130,7 +130,7 @@ const recipiesList = [
 
   //chimi
   {
-    id: "chimichurri_rojo_01",
+    id: "chimichurri_rojo_02",
     title: "Red Chimichurri",
     subtitle: "The most Argentinian sauce with a kick!",
     description: "Chimichurri is the best companion of grilled meats, empanadas, and everything in between. It's as easy as mixing the ingredients and enjoying the fresh and vibrant flavor it brings! HOT version!",
@@ -160,6 +160,40 @@ const recipiesList = [
     ],
   
   },
+
+    //Cheesy blender bites
+    {
+      id: "cheesy_blender_bites_03",
+      title: "Cheesy blender bites",
+      subtitle: "The easiest cheese bread snack!",
+      description: "These cheesy bites are the perfect snack for any occasion. They are quick to make and even quicker to disappear! You can use any cheese you have on hand, and they are gluten-free!",
+      image_1: `${baseRoute}cheesy_blender_bites.jpeg`,
+      time: "Time: 20 minutes",
+      difficulty: "Very easy",
+      galery: [],
+      videoLink: "",
+      ingredients: [
+       "1 large egg", 
+       "⅓ cup olive oil", 
+       "⅔ cup milk", 
+       "1 ½ cups tapioca starch", 
+       "1 cup grated cheese (a mix of parmesan and mozzarella works best)", 
+       "½ cup bacon, diced (optional)", 
+       "A pinch of salt", 
+       "Olive oil spray"
+      ],
+      steps: [
+        "1. Preheat your oven to 180°C (350°F). Lightly spray your mini muffin tray with olive oil.",
+        "2. Add to a blender: egg, olive oil, milk, tapioca starch, grated cheese, and salt.",
+        "3. Blend on high for about 30 seconds, or until the batter is smooth and well combined. It will be slightly runny – that’s perfect.",
+        "4. Pour the batter into the greased mini muffin tray, filling each cavity about ¾ full.",
+        "5. Top each one with extra cheese and a few bacon cubes (if using), letting them sit on top so they crisp up nicely in the oven.",
+        "6. Bake for 15–20 minutes, or until the cheesy bites puff up and turn lightly golden on top.",
+        "7. Cool slightly before removing from the tray. Enjoy warm or at room temperature!"
+
+      ],
+    
+    },
   
 ];
 

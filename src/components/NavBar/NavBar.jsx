@@ -46,7 +46,7 @@ const NavBar = () => {
           <NavLinks/>
           </div>
           <div className="">
-            <img src="/images/juan/JuanLogoWhite.png" className="h-20 border-8 border-brand-1-light"/>
+            <img src="/images/juan/JuanLogoWhite.png" className="h-20 "/>
           </div>
           <div className="flex space-x-4">
             
