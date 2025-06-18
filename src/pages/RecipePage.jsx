@@ -28,13 +28,13 @@ const RecipePage = () => {
         <div className="flex flex-wrap flex-col md:flex-row gap-5 md:gap-10 justify-around">
           <div className="p-2  flex justify-center rounded-3xl md:basis-5/12">
             <img
-              className="h-full min-w-full md:min-h-96 md:min-w-96   object-cover rounded-2xl border-8 border-brand-3"
+              className="h-full min-w-full md:min-h-96 md:min-w-96   object-cover rounded-2xl border-8 border-brand-1"
               src={recipe.image_1}
             />
           </div>
 
           <div className="p-2  flex justify-center rounded-3xl md:basis-5/12">
-            <div className="p-5 pt-2 min-h-full min-w-full  md:max-w-60  object-cover rounded-2xl bg-slate-100 border-8 border-brand-3">
+            <div className="p-5 pt-2 min-h-full min-w-full  md:max-w-60  object-cover rounded-2xl bg-slate-100 border-8  border-brand-1">
               <h2 className="mb-3 text-center font-bold text-xl md:text-2xl italic">
                 Ingredients
               </h2>
@@ -46,7 +46,7 @@ const RecipePage = () => {
             </div>
           </div>
 
-          <div className="p-2 bg-brand-3 flex justify-center rounded-3xl md:basis-full">
+          <div className="p-2  bg-brand-1 flex justify-center rounded-3xl md:basis-full">
             <div className="p-5 pt-2 min-h-full min-w-full md:max-w-60  object-cover rounded-2xl bg-slate-200">
               <h2 className="mb-3 text-center font-bold text-xl md:text-2xl italic">
                 Steps

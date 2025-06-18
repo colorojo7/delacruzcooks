@@ -2,6 +2,24 @@ const baseRoute = "/images/colabs/"
 
 const colabList = [
     {
+        id:"rodriguezbros",
+        title:"Rodriguez Bros",
+        link:"https://www.rodriguezbros.com.au/",
+        logo:`${baseRoute}rodriguezLogo.webp`,
+        relationship:"colab",
+        slogan:"",
+        description:""
+    },
+     {
+        id:"dorsogna",
+        title:"D'orsogna",
+        link:"https://www.dorsogna.com.au/",
+        logo:`${baseRoute}dorsognaLogo.jpeg`,
+        relationship:"colab",
+        slogan:"",
+        description:""
+    },
+    {
         id:"kamadojoe",
         title:"Kamadojoe",
         link:"https://www.kamadojoe.com/",
@@ -111,15 +129,6 @@ const colabList = [
         title:"Australian Meats",
         link:"https://australianmeats.com.au/",
         logo:`${baseRoute}ausMeatsLogo.webp`,
-        relationship:"colab",
-        slogan:"",
-        description:""
-    },
-    {
-        id:"rodriguezbros",
-        title:"Rodriguez Bros",
-        link:"https://www.rodriguezbros.com.au/",
-        logo:`${baseRoute}rodriguezLogo.webp`,
         relationship:"colab",
         slogan:"",
         description:""

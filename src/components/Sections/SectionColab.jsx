@@ -6,24 +6,24 @@ const SectionColab = () => {
 
   return (
     <div className="h-full">
-      <div className="flex flex-col md:flex-row md:gap-3 justify-evenly h-full">
-        <div className="md:h-full w-full md:p-6">
+      <div className="flex flex-col  justify-evenly h-full">
+        <div className="w-full md:p-6 md:pb-0">
           <div className="flex flex-col justify-between bg-blue-100 p-6 h-full w-full rounded-3xl">
             <h2 className="px-4 text-6xl font-extrabold text-brand-2 md:text-center">
             These are some of my latest partnerships
             </h2>
-            <div className="hidden md:block border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
+            {/* <div className="hidden md:block border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
               <a href="#contact">Let's work together</a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="max-h-full w-full p-6 overflow-y-auto">
           <div className=" flex flex-col justify-center h-full w-full">
-            <div className="flex flex-row flex-wrap  min-h-96 ">
+            <div className="flex flex-row flex-wrap  min-h-96">
               {colabList.map((colab) => (
                 <div
                   key={colab.id}
-                  className="basis-6/12 md:basis-4/12 p-2 w-36 h-36"
+                  className="basis-6/12 md:basis-2/12 p-2 w-36 h-36"
                 >
                   <div className="group relative h-full rounded-xl shadow-xl overflow-hidden">
                     {/* Capa principal con la imagen */}
@@ -57,7 +57,7 @@ const SectionColab = () => {
             </div>
           </div>
         </div>
-        <div className="md:hidden block bg-blue-100 p-6">
+        <div className=" block bg-blue-100 p-6">
           <div className=" border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
             <a href="#contact">Let's work together</a>
           </div>

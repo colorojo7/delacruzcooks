@@ -6,6 +6,7 @@ import SectionRecipies from '../components/Sections/SectionRecipies'
 import SectionContact from '../components/Sections/SectionContact'
 import SectionColab from '../components/Sections/SectionColab'
 import SectionChildfund from '../components/Sections/SectionChildfund'
+import SectionEvents from '../components/Sections/SectionEvents'
 
 const LandingPage = () => {
   return (
@@ -20,6 +21,9 @@ const LandingPage = () => {
         <Section className="h-auto" id="recipes">
             <SectionRecipies/>
         </Section>
+        {/* <Section className="h-auto" id="recipes">
+            <SectionEvents/>
+        </Section> */}
         <Section className=''>
             <SectionChildfund />
         </Section>
