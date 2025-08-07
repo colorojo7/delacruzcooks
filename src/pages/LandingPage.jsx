@@ -23,7 +23,7 @@ const LandingPage = () => {
         <Section className="h-auto" id="recipes">
             <SectionRecipies/>
         </Section>
-        <Section  className="min-h-dvh md:px-0 my-5 mb-8 bg-black">
+        <Section  className="min-h-96 md:px-0 my-5 mb-8 bg-black">
           <SectionCrossRoots/>
       </Section>
       <Section className="max-h-fit pb-16" id="events">

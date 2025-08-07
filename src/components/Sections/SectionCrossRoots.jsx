@@ -9,13 +9,13 @@ const SectionCrossRoots = () => {
         </div>
         <div className="md:w-5/12 md:pe-32 flex flex-col gap-4 px-10">
           <div>
-            <p className="text-2xl text-white tracking-wider font-serif uppercas imperial-script-regular">
+            <p className="text-xl text-white tracking-wider font-serif uppercas tangerine-regular">
               “I want to share a dream with you. A bold, small-batch
               Shiraz-Malbec crafted by two friends from Mendoza, now living in
               Australia. — a tribute to our roots, our journey, and the moments
               we share around a glass of wine”—.
             </p>
-            <p className="text-lg text-white tracking-widest font-serif uppercas windsong-medium">
+            <p className="text-lg text-white tracking-widest font-serif uppercas windsong-medium pt-5 text-right">
               Juan de la Cruz
             </p>
           </div>
