@@ -14,6 +14,7 @@ export default {
         "brand-4": "#d7a878",
         "brand-5": "#8f521c",
         "brand-6": "#70593e",
+        "gold":"#F3CA4C"
       },
 
     },

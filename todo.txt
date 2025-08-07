@@ -1,0 +1,27 @@
+- achicar tamano de titulos
+
+    Child fund reacomodar  foto izquierda, logo y txt derecha. 
+    Crear dorsogna igual foto izquiera  ( foto pro a enviar por juan ) + logo y texto a la derecha( a enviar por juan)
+
+ 
+-
+
+- seccion logos :
+    - quitar bordesde las tarjetas(solo logo en fondo bklanco) 
+    - 7 logos wide (achicar logos)
+    - Que no tenga scroll down  todo en una pieza
+    - agregar "gastonbravowines.com.au"
+
+
+- seccion vino;' 
+    Recibir de juan:
+        -Logo 
+        -Foto 
+    
+    Description: botella a la izquierda , foto Juan a la derecha , boton "shop"
+
+- seccion Events:
+    Tarjetas 
+    - Titulo "UpComing Events"
+    - Contenido : 
+    Event Title, Subtitle (whats happening), Date, time, Location + Button "more info"
