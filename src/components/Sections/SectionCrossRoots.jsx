@@ -1,11 +1,12 @@
-const bottleImg = "images/crossRoots/bottle_01.png";
+const bottleImg = "images/crossRoots/label.png";
 
 const SectionCrossRoots = () => {
   return (
-    <div className="">
-      <div className="flex flex-col md:flex-row justify-around items-center h-full gap-12 md:gap-0 ">
-        <div className="md:min-w-4/12 ">
-          <img src={bottleImg} className="max-h-dvh" />
+    <div className="md:max-h-[500px] pb-5">
+      {/* //items-center  */}
+      <div className=" flex flex-col md:flex-row md:justify-around items-center md:gap-0">
+        <div className=" ">
+          <img src={bottleImg} className="max-h-[350px] md:max-h-[500px]" />
         </div>
         <div className="md:w-5/12 md:pe-32 flex flex-col gap-4 px-10">
           <div>

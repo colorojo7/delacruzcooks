@@ -5,7 +5,7 @@ const SectionChildfund = () => {
 
   return (
 
-    <div className="mb-10 px-1 w-11/12 ">
+    <div className="mb-10 px-1 md:w-11/12 ">
       <div className="border-8 rounded-2xl border-brand-1-light bg-brand-1-light py-10 ">
         <div className="flex flex-col-reverse md:flex-row justify-center gap-10 md:gap-20 px-4">
           <div className="flex justify-center">

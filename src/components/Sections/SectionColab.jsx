@@ -37,8 +37,8 @@ const SectionColab = () => {
             </div>
           </div>
         </div>
-        <div className=" block bg-blue-100 p-6 rounded-b-3xl">
-          <div className=" border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
+        <div className="  bg-blue-100 p-6 rounded-b-3xl flex justify-center items-center">
+          <div className="max-w-80 border border-brand-1 hover:bg-brand-2 text-brand-1 px-2 py-1 rounded-lg hover:text-white font-bold text-2xl text-center">
             <a href="#contact">Let's work together</a>
           </div>
         </div>
