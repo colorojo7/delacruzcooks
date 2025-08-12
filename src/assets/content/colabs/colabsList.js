@@ -178,6 +178,24 @@ const colabList = [
         slogan:"",
         description:""
     },
+     {
+        id:"IWAMB",
+        title:"I was a milk bottle",
+        link:"",
+        logo:`${baseRoute}IWAMB-LOGO_BLUE.png`,
+        relationship:"colab",
+        slogan:"",
+        description:""
+    },
+     {
+        id:"multix",
+        title:"Multix",
+        link:"",
+        logo:`${baseRoute}MULTIX-LOGO-LG.png`,
+        relationship:"colab",
+        slogan:"",
+        description:""
+    },
 ]
 
 
